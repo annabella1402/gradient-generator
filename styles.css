@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80)
+    no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "poppins", sans-serif;
+}
+
+.container {
+  padding: 20px;
+  width: 350px;
+  background: white;
+  border-radius: 7px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container .output {
+  height: 180px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(249, 79, 146) 11.2%,
+    rgb(253, 114, 114) 91.1%
+  );
+  width: 100%;
+  border-radius: 7px;
+}
+
+.container .generate-btn {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container .generate-btn button {
+  all: unset;
+  height: 40px;
+  width: 130px;
+  background: #a2a8d3;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+.container .code-box {
+  padding: 10px;
+  width: 100%;
+  background: #e7eaf6;
+  border-radius: 7px;
+  padding-bottom: 0;
+  padding-right: 0;
+  margin-top: 25px;
+}
+
+.container .code-box span {
+  font-size: 14px;
+}
+
+.container .code-box .copy {
+  all: unset;
+  height: 25px;
+  width: 70px;
+  background: #a2a8d3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 7px;
+  margin-left: auto;
+  margin-top: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
